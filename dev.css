@@ -1,0 +1,34 @@
+body{
+    font-family: "montserrat";
+    margin: 0px;
+    }
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+   font-size: 20px;
+}
+h1{
+    text-align:center;
+    font-size:36px;
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+  
+   
+}
+.navbar li{
+    margin: 0px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px;
+}
+.navbar a:hover{
+    background-color: rgb(49, 49, 49);
+}
