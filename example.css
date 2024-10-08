@@ -1,0 +1,38 @@
+body{
+    margin: 80px;
+    background-color: black;
+    
+}
+.one{
+    list-style-type: none;
+    display:flex ;
+    background-color: white;
+    padding: 12px;
+}
+.one li{
+    margin: 20px;
+   
+}
+.one li:hover{
+    background-color: rgb(163, 163, 163);
+}
+.one h2{
+    margin: 10px;
+    margin-right: 100px;
+}
+div{
+    background-color: rgb(197, 196, 196);
+    border-radius: 20px;
+}
+.singin{
+    margin-left: 200px;
+    background-color: rgb(2, 58, 2);
+    color: white;
+}
+.plan{
+   border: none;
+   margin-left: 30px;
+}
+.two{
+    margin-left: 20px;
+}
