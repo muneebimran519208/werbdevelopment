@@ -6,40 +6,51 @@ body{
     margin: 0;
     height: 100vh;
     color: #ffffff;
+    font-family: "Playfair Display", serif;
 }
 h1{
     text-align: center;
 }
 .forecast-container{
-background-color: #3963b1;
+background-color: rgb(3, 64, 113);
 border-radius: 10px;
 padding: 20px;
 width: 300px;
+cursor: pointer;
 }
 .one{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 0;
-    border: solid rgb(4, 9, 13);
+    border: 3px solid rgb(3, 64, 113);
+    background-color: #3963b1;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 
 }
 .sun div {
-    background-color: yellow;
+    background-color: rgb(234, 234, 84);
     height: 20px;
     width: 20px;
     border-radius: 10px;
-    
+    margin-right: 20px;
 }
 .moon{
-    background-color: gray;
+    background-color: rgb(211, 207, 207);
     height: 20px;
     width: 20px;
     border-radius: 10px;
-    
+    margin-right: 20px;
 }
 .day{
 flex: 1;
+margin-left: 7px;
+}
+.temp{
+    margin-right: 5px;
 }
 
 
