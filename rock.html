@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -24,13 +23,23 @@
     >
       Scissors
     </button>
+    <button
+    onclick="resetscore()"
+    >reset score</button>
   </body>
 
   <script>
+     
     const score= {
     wins:0,
     losses:0,
     draws:0,
+   }
+   function resetscore()
+   {
+    score.wins=0,
+    score.losses=0,
+    score.draws=0
    }
     function playGame(playerMove) {
       const computerMove = pickComputerMove();
@@ -73,14 +82,14 @@
           result = " lose";
         }
       }
-      if (result==='win') {
+      if (result==='tie') {
+    score.draws+=1
+   }
+    else if(result==='win'){
     score.wins+=1
    }
-   else if(result==='tie'){
-    score.losses+=1
-   }
    else{
-    score.draws+=1
+    score.losses+=1
 }
       console.log(computerMove);
       alert(
